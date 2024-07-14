@@ -1,0 +1,62 @@
+/* Home style */
+
+.home-table {
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+/* /Home style */
+
+/* Create style */
+.create {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-form {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(87, 83, 83);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.create-form__input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 2px;
+}
+
+.create-form__button {
+    background-color:rgb(97, 122, 246);
+    padding: 10px 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* /Create style */
